@@ -8,10 +8,60 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src='script.js'defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <title>Porfolio</title>
   </head>
   <body>
     <!-- Hero -->
+    <header class="bg-white sticky top-0 z-50">
+        <nav class=" top-0 flex justify-between items-center w-[92%] mx-auto">
+          <div class="z-20">
+            <img class='w-16'src="/sources/porfolio logo.png" alt="robot">
+          </div>
+          <div class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[30vh] md:w-auto left-0 top-[-400%] w-full flex items-center p-5 z-10">
+              <ul class="flex md:flex-row flex-col md:items-center md:gap-[4Vw] gap-6">
+                <li>
+                  <a
+            class="hover:text-gray-500"
+            href="#tab-Home"
+            >Home</a>
+                </li>
+                <li>
+                  <a
+            class="hover:text-gray-500"
+            href="#tab-AboutMe"
+            >About Me</a>
+                </li>
+                <li>
+                  <a
+            class="hover:text-gray-500"
+            href="#tab-Resume"
+            >Resume</a>
+                </li>
+                <li>
+                  <a
+            class="hover:text-gray-500"
+            href="#tab-Porfolio"
+            >Porfolio</a>
+                </li>
+                <li>
+                  <a
+            class="hover:text-gray-500"
+            href="#tab-Contact"
+            >Contact</a>
+                </li>
+              </ul>
+          </div>
+          <div class="flex items-center gap-6">
+            <a href="#tab-Contact" class="px-5 py-2 rounded-full bg-colorPrimaryLight duration-200 hover:opacity-80 text-black">Send Inquiry</a>
+            <ion-icon onclick="onToggleMenu(this)" name="menu-outline" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+          </div>
+        </nav>
+    </header>
+
+
     <section id="tab-Home">
         <div class=" w-screen h-screen  flex flex-col justify-center items-center relative bg-gradient-to-br from-colorPrimary to-colorPrimaryLight ">
             <img src="/sources/herobackground_landscape2.jpg" alt="" class="w-full h-full object-cover object-right absolute mix-blend-overlay brightness-50">
@@ -22,40 +72,9 @@
               Front End Developer
             </h2>
             <a
-              class="text-lg md:text-xl p-4 px-8 rounded-full shadow-lg bg-colorPrimary duration-200 hover:opacity-80 z-10"
+              class="text-lg md:text-xl p-4 px-8 rounded-full shadow-lg bg-colorPrimary duration-200 hover:opacity-80 z-10 mt-6"
               href="#tab-Contact "><span class="text-colorPrimaryLight2">Let's Get in Touch</span></a>      
         </div>
- 
-
-
-      <div class="" id="navbar">
-        <a
-          class=""
-          href="#tab-Home"
-          >Home</a
-        >
-        <a
-          class=""
-          href="#tab-AboutMe"
-          >About Me</a
-        >
-        <a
-          class=""
-          href="#tab-Resume"
-          >Resume</a
-        >
-        <a
-          class=""
-          href="#tab-Porfolio"
-          >Porfolio</a
-        >
-        <a
-          class=""
-          href="#tab-Contact"
-          >Contact</a
-        >
-        <span class=""></span>
-      </div>
     </section>
 
     
