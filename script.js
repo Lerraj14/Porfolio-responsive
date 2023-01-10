@@ -4,5 +4,5 @@ function onToggleMenu(e) {
   e.name = e.name === "menu-outline" ? "close" : "menu-outline";
   console.log(e.name);
     navLinks.classList.toggle("top-[-400%]");
-    navLinks.classList.toggle("top-[100%]");
+    navLinks.classList.toggle("top-full");
 }
