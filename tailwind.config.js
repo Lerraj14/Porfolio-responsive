@@ -1,6 +1,5 @@
 module.exports = {
   content: ["./*.{html,js}"],
-
   theme: {
     screen: {
       sm: "480px",
@@ -24,5 +23,5 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
