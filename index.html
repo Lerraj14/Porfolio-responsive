@@ -360,82 +360,81 @@
 
 
 
-      <section class="section-contact" id="tab-Contact">
-        <div class="contact-container">
-          <div class="contact-container__header">
-            <h3>Contact Me</h3>
-            <h2>Contact me to get your <br/>work done</h2>
-          </div>
-          <div class="contact-container__form">
-            <div class="contact-container__form-contact">
-
-              <div class="contact contact-phone">
-                <div class="contact-img" >
-                  <span class="icon-background">
-                    <img src="/sources/phonebook.png" alt="phonebook">
-                  </span>
-                </div>
-                <div class="contact-detail">
-                  <h4>Call me</h4>
-                  <p>+639284941506</p>
-                </div>
-              </div>
-
-              <div class="contact contact-email">
-                <div class="contact-img" >
-                  <span class="icon-background">
-                    <img src="/sources/email.png" alt="email">
-                  </span>
-              </div>
-              <div class="contact-detail">
-                <h4>Email Us</h4>
-                <p>delrosariojarrelrandel14@gmail.com</p>
-              </div>
-              </div>
-
-              <div class="contact contact-address">
-                <div class="contact-img" >
-                  <span class="icon-background">
-                    <img src="/sources/pin.png" alt="address">
-                  </span>
-              </div>
-              <div class="contact-detail">
-                <h4>Address</h4>
-                <p>1909 sitio fatima <br/> Brgy Palangoy binangonan Rizal</p>
-              </div>
-              </div>
+      <section class="bg-colorPrimaryLight2 h-full p-6" id="tab-Contact">
+          <div class="text-center p-6  bg-colorPrimaryLight2 m-6">
+            <h4 class="text-2xl text-center font-bold text-colorPrimary uppercase  ">Contact Me</h4>
+            <h5 class="text-lg text-colorPrimary font-bold ">Contact me to get your <br/>work done</h5>
+            <div class=" p-4">
+              <img src="/sources/phonebook.png" class="h-12 w-12 m-auto" alt="phonebook">
+              <h4>Call me</h4>
+              <p>+639284941506</p>
             </div>
+            <div class=" p-4">
+              <img src="/sources/email.png" class="h-12 w-12 m-auto" alt="phonebook">
+              <h4>Email Us</h4>
+              <p class="">delrosariojarrelrandel14<br/>@gmail.com</p>
+            </div>
+            <div class="p-4">
+              <img src="/sources/pin.png" class="h-12 w-12 m-auto" alt="Address">
+              <h4>Address</h4>
+              <p>1909 sitio fatima <br/> Brgy Palangoy binangonan Rizal</p>
+            </div>
+          </div>
 
-            <form class="contact-container__form-form" name="sign-up" netlify>
+            <form class="p-6 bg-colorPrimaryDark2 m-6" name="sign-up" netlify>
               <div class="contact-container__form-input">
                 <ul>
                   <li>
-                    <input id="name" type="text" placeholder="Your name" name="name" required>
+                    <div class="form-control w-full max-w-xs">
+                      <label class="label">
+                        <span class="label-text text-lg text-colorPrimaryLight2 ">What is your name?</span>
+                      </label>
+                      <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" required />
+                    </div>
+                    <!-- <input id="name" type="text" placeholder="Your name" name="name" required> -->
                   </li>
                   <li>
-                    <input id="email" type="text" placeholder="Your Email"name="email"required>
+                    <div class="form-control w-full max-w-xs">
+                      <label class="label">
+                        <span class="label-text text-lg text-colorPrimaryLight2 ">Your Email</span>
+                      </label>
+                      <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" required />
+                    </div>
+                    <!-- <input id="email" type="text" placeholder="Your Email"name="email"required> -->
                   </li>
                   <li>
-                    <input id="phone" type="number" placeholder="Your Phone"name="phone"required>
+                    <div class="form-control w-full max-w-xs">
+                      <label class="label">
+                        <span class="label-text text-lg text-colorPrimaryLight2 ">Your Phone#</span>
+                      </label>
+                      <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" required />
+                    </div>
+                    <!-- <input id="phone" type="number" placeholder="Your Phone"name="phone"required> -->
                   </li>
                   <li>
-                    <input id="subject" type="text" placeholder="Your Subject" name="subject"required>
+                    <div class="form-control w-full max-w-xs">
+                      <label class="label">
+                        <span class="label-text text-lg text-colorPrimaryLight2 ">Your Subject</span>
+                      </label>
+                      <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" required />
+                    </div>
+                    <!-- <input id="subject" type="text" placeholder="Your Subject" name="subject"required> -->
                   </li>
                   <li class="message-form">
-                      <textarea id ='message' placeholder="Your message here"name="message"required></textarea>
+                    <div class="form-control w-full max-w-xs">
+                      <label class="label">
+                        <span class="label-text text-lg text-colorPrimaryLight2 ">Your message here</span>
+                      </label>
+                      <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" required />
+                    </div>
+                      <!-- <textarea id ='message' placeholder="Your message here"name="message"required></textarea> -->
                   </li>
                 </ul>
               </div>
-            
               <div class="contact-container__form-btn">
-               <button id ='send_message' href="#">Submit now</button>
+               <button id ='send_message' href="#" class=" text-lg text-colorPrimaryLight2 md:text-xl p-4 px-8 rounded-full shadow-lg bg-colorPrimary duration-200 hover:opacity-80 z-10 mt-6">Submit now</button>
               </div>
-
-              
             </form>
-          </div>
-   
-        </div>
       </section>
     </main>
   </body>
