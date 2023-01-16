@@ -18,10 +18,10 @@ module.exports = {
         colorWhite: " #fff",
         colorBlack: "#000",
       },
-      fontFamily:{
-        sans:['League Spartan','sans-serif'],
-      }
+      fontFamily: {
+        sans: ["League Spartan", "sans-serif"],
+      },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui"), require("autoprefixer")],
 };
