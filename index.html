@@ -315,7 +315,7 @@
       
 
       <!-- Porfolio -->
-      <section class="" id="tab-Porfolio">
+      <section class=" my-12" id="tab-Porfolio">
         <h2 class="my-4 text-2xl md:text-4xl text-center font-bold text-colorPrimary uppercase md:pt-6 md:my-12">Porfolio</h2>
         
         <div class="flex flex-col md:flex-row md:gap-4 gap-8  md:p-7 p-6 h-full w-full bg-colorPrimaryDark">
@@ -360,36 +360,50 @@
 
 
 
-      <section class="bg-colorPrimaryLight2 h-full p-6" id="tab-Contact">
-          <div class="text-center p-6  bg-colorPrimaryLight2 m-6">
-            <h4 class="text-2xl text-center font-bold text-colorPrimary uppercase  ">Contact Me</h4>
-            <h5 class="text-lg text-colorPrimary font-bold ">Contact me to get your <br/>work done</h5>
-            <div class=" p-4">
-              <img src="/sources/phonebook.png" class="h-12 w-12 m-auto" alt="phonebook">
-              <h4 class="text-colorPrimary">Call me</h4>
-              <p class="text-black">+639284941506</p>
+      <section class=" h-full p-6  mt-12" id="tab-Contact">
+        <div class="md:flex md:justify-center mt-12 md:mx-20 ">
+          <div class="text-center p-6  bg-colorPrimaryLight2 m-6 md:m-2 md:w-full md:rounded-l-2xl">
+            <h4 class="text-2xl text-center font-bold text-colorPrimary uppercase  md:text-left md:text-3xl">Contact Me</h4>
+            <h5 class="text-lg text-colorPrimary font-bold md:text-left md:text-2xl ">Contact me to get your <br/>work done</h5>
+            
+            <div class="md:flex  p-4 md:justify-start md:gap-14 ">
+              <img src="/sources/phonebook.png" class="h-12 w-12 m-auto md:m-0 md:h-20 md:w-20" alt="phonebook">
+              <div class=" md:flex md:flex-col md:justify-center">
+                <h4 class="text-colorPrimary md:text-xl md:place-self-start">Call me</h4>
+                <p class="text-black md:place-self-center md:text-xl">+639284941506</p>
+              </div>
             </div>
-            <div class=" p-4">
-              <img src="/sources/email.png" class="h-12 w-12 m-auto" alt="phonebook">
-              <h4 class="text-colorPrimary">Email Us</h4>
-              <p class="text-black">delrosariojarrelrandel14<br/>@gmail.com</p>
-            </div>
-            <div class="p-4">
-              <img src="/sources/pin.png" class="h-12 w-12 m-auto" alt="Address">
-              <h4 class="text-colorPrimary">Address</h4>
-              <p class="text-black">1909 sitio fatima <br/> Brgy Palangoy binangonan Rizal</p>
+
+          <div class=" md:flex  p-4 md:justify-start md:gap-14">
+              <img src="/sources/email.png" class="h-12 w-12 m-auto md:m-0 md:h-20 md:w-20" alt="phonebook">
+            <div class=" md:flex md:flex-col md:justify-center">
+              <h4 class="text-colorPrimary md:text-xl md:place-self-start">Email Us</h4>
+              <p class="text-black md:place-self-center md:text-xl">delrosariojarrelrandel14<br/>@gmail.com</p>
             </div>
           </div>
 
-            <form class="p-6 bg-colorPrimaryDark2 m-6" name="sign-up" netlify>
-              <div class="contact-container__form-input">
+
+            <div class=" md:flex  p-4 md:justify-start md:gap-14">
+              <img src="/sources/pin.png" class="h-12 w-12 m-auto md:m-0 md:h-20 md:w-20" alt="Address">
+              <div class=" md:flex md:flex-col md:justify-center">
+                <h4 class="text-colorPrimary md:text-xl md:place-self-start">Address</h4>
+                <p class="text-black md:place-self-center md:text-xl">1909 sitio fatima <br/> Brgy Palangoy binangonan Rizal</p>
+              </div>
+
+            </div>
+
+
+          </div>
+
+            <form class="p-6 bg-colorPrimaryDark2 m-4 md:w-2/3 md:m-2  rounded-2xl md:rounded-r-2xl" name="sign-up" netlify>
+              <div class=" ">
                 <ul>
                   <li>
                     <div class="form-control w-full max-w-xs">
                       <label class="label">
                         <span class="label-text text-lg text-colorPrimaryLight2 ">What is your name?</span>
                       </label>
-                      <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs bg-colorPrimaryLight2" required />
+                      <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-sm bg-colorPrimaryLight2" required />
                     </div>
                     <!-- <input id="name" type="text" placeholder="Your name" name="name" required> -->
                   </li>
@@ -435,6 +449,8 @@
                <button id ='send_message' href="#" class=" text-lg text-colorPrimaryLight2 md:text-xl p-4 px-8 rounded-full shadow-lg bg-colorPrimary duration-200 hover:opacity-80 z-10 mt-6">Submit now</button>
               </div>
             </form>
+        </div>
+         
       </section>
     </main>
   </body>
